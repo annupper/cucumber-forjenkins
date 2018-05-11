@@ -15,7 +15,7 @@ public class SimpleTest {
     //http://www.seleniumhq.org/download/maven.jsp
     //https://code.google.com/p/selenium/wiki/GettingStarted
 	 // System.setProperty("webdriver.chrome.driver", "C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\WebDrivers\\ChromeDriver\\chromedriver.exe");
-    System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "bin/chromedriver");
 	  WebDriver driver = new ChromeDriver();
     driver.get("https://www.google.com");
     WebElement element = driver.findElement(By.name("q"));
